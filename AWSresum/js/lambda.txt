@@ -1,0 +1,17 @@
+
+
+import json
+import boto3
+
+#TODO implement
+
+dynaDb = boto3.resource('dynamodb')
+tbl = dynaDb.Table('resumhits')
+def lambda_handler(event, context):
+    response = tbl.get_item(Key={'id': '1'})
+    nview = response['Item']['hits']
+    nview = nview + 1
+    print(nview)
+    response = tbl.put_item(Item={'id':'1', 'hits': nview})
+
+    return nview
