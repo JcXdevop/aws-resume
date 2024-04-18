@@ -5,7 +5,7 @@ Cloud Resume Challenge is a project that helps us learn to use the cloud and som
 
 You can complete this challenge as part of the AWS Free tier.
 
-You only need to buy a domain name, but if you are a student there is a way to have it for free at namecheap for students, here at https://nc.me
+You need to buy a domain name, for students there is a way to have it for free at "namecheap for students", here at https://nc.me
 
 
 These are the steps to follow:
@@ -28,4 +28,4 @@ These are the steps to follow:
 
 
 
-![aws cloud resume](https://github.com/JcXdevop/aws-resume/assets/156047495/ec6b8ff4-36be-4072-b535-18ba2e23756d)
+![awsResumeDiag](https://github.com/JcXdevop/aws-resume/assets/156047495/08b2b4d7-4f31-44cf-8b43-1ff4dee80c84)
